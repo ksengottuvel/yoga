@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shambhavi</title>
+	<script type="text/javascript">
+		function startShambhavi() {
+			var playAudio = function() {
+				var audio = document.getElementsByTagName('audio')[0];
+				audio.play();
+			}
+			setTimeout(playAudio, 1 * 60 * 1000);
+			setTimeout(playAudio, 2 * 60 * 1000);
+			setTimeout(playAudio, 3 * 60 * 1000);
+			setTimeout(playAudio, 4 * 60 * 1000);
+
+		}
+	</script>
+</head>
+<body>
+<div width="100%">
+	<button onclick="startShambhavi()">Start Shambhavi</button>
+	<audio src="media/Wink-sound-effect.mp3"></audio>
+</div>
+</body>
+</html>
